@@ -24,15 +24,18 @@ h1{
     
 }
 
- header nav {
-    
+ .links{
     display:flex;
     
     justify-content:space-between;
 
+ }
+    
+ 
+
 
     
-}
+
 
 
 
@@ -65,6 +68,27 @@ footer{
     padding:4%;
     background-color: darkmagenta;
 }
-.botlink{
 
-}
+@media (max-width:800px){
+   
+   header  {
+    display:flex;
+    justify-content:space-evenly;
+   }
+    .mountain{
+        display:flex;
+        width:70%;
+        height:200px;
+        margin-left:10%;
+    }
+    footer{
+        display:flex;
+        justify-content:center;
+        
+    }
+    footer nav{
+        width:20%;
+    }
+      
+        
+    }
